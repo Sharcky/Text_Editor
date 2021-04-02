@@ -1,7 +1,7 @@
 ﻿
 namespace Text_Editor
 {
-    partial class Form1
+    partial class Form_txt
     {
         /// <summary>
         ///  Required designer variable.
@@ -29,15 +29,14 @@ namespace Text_Editor
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.panel1 = new System.Windows.Forms.Panel();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_txt));
             this.panel5 = new System.Windows.Forms.Panel();
+            this.button8 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cb_numero = new System.Windows.Forms.ComboBox();
+            this.cb_font = new System.Windows.Forms.ComboBox();
             this.panel4 = new System.Windows.Forms.Panel();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -45,69 +44,76 @@ namespace Text_Editor
             this.panel6 = new System.Windows.Forms.Panel();
             this.button7 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.newToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.openToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator = new System.Windows.Forms.ToolStripSeparator();
-            this.saveToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.saveAsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.printToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.printPreviewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.editToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.undoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.redoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
-            this.cutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.copyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.pasteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
-            this.selectAllToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.customizeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.optionsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.contentsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.indexToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.searchToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
-            this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.panel1.SuspendLayout();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.btn_help = new System.Windows.Forms.Button();
+            this.btn_tools = new System.Windows.Forms.Button();
+            this.btn_edit = new System.Windows.Forms.Button();
+            this.btn_file = new System.Windows.Forms.Button();
+            this.Panel_File = new System.Windows.Forms.Panel();
+            this.button14 = new System.Windows.Forms.Button();
+            this.button12 = new System.Windows.Forms.Button();
+            this.button11 = new System.Windows.Forms.Button();
+            this.button10 = new System.Windows.Forms.Button();
+            this.btn_open = new System.Windows.Forms.Button();
+            this.btn_new = new System.Windows.Forms.Button();
+            this.Panel_Edit = new System.Windows.Forms.Panel();
+            this.button19 = new System.Windows.Forms.Button();
+            this.button18 = new System.Windows.Forms.Button();
+            this.button17 = new System.Windows.Forms.Button();
+            this.button16 = new System.Windows.Forms.Button();
+            this.button15 = new System.Windows.Forms.Button();
+            this.button13 = new System.Windows.Forms.Button();
+            this.panel10 = new System.Windows.Forms.Panel();
+            this.Panel_Tools = new System.Windows.Forms.Panel();
+            this.button21 = new System.Windows.Forms.Button();
+            this.button20 = new System.Windows.Forms.Button();
+            this.panel12 = new System.Windows.Forms.Panel();
+            this.Panel_Help = new System.Windows.Forms.Panel();
+            this.button23 = new System.Windows.Forms.Button();
+            this.panel14 = new System.Windows.Forms.Panel();
+            this.panel15 = new System.Windows.Forms.Panel();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.panel8 = new System.Windows.Forms.Panel();
+            this.txt_box = new System.Windows.Forms.RichTextBox();
+            this.panel9 = new System.Windows.Forms.Panel();
             this.panel5.SuspendLayout();
-            this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel6.SuspendLayout();
-            this.menuStrip1.SuspendLayout();
+            this.panel7.SuspendLayout();
+            this.Panel_File.SuspendLayout();
+            this.Panel_Edit.SuspendLayout();
+            this.Panel_Tools.SuspendLayout();
+            this.Panel_Help.SuspendLayout();
+            this.panel15.SuspendLayout();
+            this.panel8.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // panel1
-            // 
-            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.panel5);
-            this.panel1.Controls.Add(this.panel3);
-            this.panel1.Controls.Add(this.panel4);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(0, 24);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(800, 35);
-            this.panel1.TabIndex = 0;
             // 
             // panel5
             // 
-            this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel5.Controls.Add(this.button8);
             this.panel5.Controls.Add(this.button5);
             this.panel5.Controls.Add(this.button4);
             this.panel5.Controls.Add(this.button1);
             this.panel5.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel5.Location = new System.Drawing.Point(308, 0);
+            this.panel5.Location = new System.Drawing.Point(309, 0);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(87, 33);
+            this.panel5.Size = new System.Drawing.Size(93, 45);
             this.panel5.TabIndex = 5;
+            // 
+            // button8
+            // 
+            this.button8.Dock = System.Windows.Forms.DockStyle.Left;
+            this.button8.FlatAppearance.BorderSize = 0;
+            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button8.Image = ((System.Drawing.Image)(resources.GetObject("button8.Image")));
+            this.button8.Location = new System.Drawing.Point(56, 0);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(28, 45);
+            this.button8.TabIndex = 3;
+            this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click_1);
             // 
             // button5
             // 
@@ -115,15 +121,15 @@ namespace Text_Editor
             this.button5.FlatAppearance.BorderSize = 0;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
-            this.button5.Location = new System.Drawing.Point(56, 0);
+            this.button5.Location = new System.Drawing.Point(28, 0);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(28, 31);
+            this.button5.Size = new System.Drawing.Size(28, 45);
             this.button5.TabIndex = 2;
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button4
             // 
-            this.button4.Dock = System.Windows.Forms.DockStyle.Left;
             this.button4.FlatAppearance.BorderSize = 0;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
@@ -141,47 +147,52 @@ namespace Text_Editor
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
             this.button1.Location = new System.Drawing.Point(0, 0);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(28, 31);
+            this.button1.Size = new System.Drawing.Size(28, 45);
             this.button1.TabIndex = 0;
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // panel3
+            // cb_numero
             // 
-            this.panel3.BackColor = System.Drawing.SystemColors.Control;
-            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel3.Controls.Add(this.comboBox2);
-            this.panel3.Controls.Add(this.comboBox1);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel3.Location = new System.Drawing.Point(83, 0);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(225, 33);
-            this.panel3.TabIndex = 4;
+            this.cb_numero.FormattingEnabled = true;
+            this.cb_numero.Items.AddRange(new object[] {
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "14",
+            "18",
+            "24",
+            "30",
+            "36",
+            "48",
+            "60",
+            "72",
+            "96"});
+            this.cb_numero.Location = new System.Drawing.Point(169, 11);
+            this.cb_numero.Name = "cb_numero";
+            this.cb_numero.Size = new System.Drawing.Size(48, 23);
+            this.cb_numero.TabIndex = 5;
+            this.cb_numero.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
             // 
-            // comboBox2
+            // cb_font
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(163, 4);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(48, 23);
-            this.comboBox2.TabIndex = 5;
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(6, 4);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(151, 23);
-            this.comboBox1.TabIndex = 4;
+            this.cb_font.FormattingEnabled = true;
+            this.cb_font.Location = new System.Drawing.Point(5, 11);
+            this.cb_font.Name = "cb_font";
+            this.cb_font.Size = new System.Drawing.Size(151, 23);
+            this.cb_font.TabIndex = 4;
+            this.cb_font.SelectedIndexChanged += new System.EventHandler(this.cb_font_SelectedIndexChanged);
             // 
             // panel4
             // 
-            this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel4.Controls.Add(this.button3);
-            this.panel4.Controls.Add(this.button2);
+            this.panel4.Controls.Add(this.cb_numero);
+            this.panel4.Controls.Add(this.cb_font);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel4.Location = new System.Drawing.Point(0, 0);
+            this.panel4.Location = new System.Drawing.Point(80, 0);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(83, 33);
+            this.panel4.Size = new System.Drawing.Size(229, 45);
             this.panel4.TabIndex = 3;
             // 
             // button3
@@ -193,7 +204,7 @@ namespace Text_Editor
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Location = new System.Drawing.Point(40, 0);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(40, 31);
+            this.button3.Size = new System.Drawing.Size(40, 45);
             this.button3.TabIndex = 1;
             this.button3.UseVisualStyleBackColor = true;
             // 
@@ -206,13 +217,13 @@ namespace Text_Editor
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Location = new System.Drawing.Point(0, 0);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(40, 31);
+            this.button2.Size = new System.Drawing.Size(40, 45);
             this.button2.TabIndex = 0;
             this.button2.UseVisualStyleBackColor = true;
             // 
             // panel2
             // 
-            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel2.BackColor = System.Drawing.Color.White;
             this.panel2.Controls.Add(this.panel6);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel2.Location = new System.Drawing.Point(0, 419);
@@ -225,9 +236,9 @@ namespace Text_Editor
             this.panel6.Controls.Add(this.button7);
             this.panel6.Controls.Add(this.button6);
             this.panel6.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel6.Location = new System.Drawing.Point(729, 0);
+            this.panel6.Location = new System.Drawing.Point(731, 0);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(69, 29);
+            this.panel6.Size = new System.Drawing.Size(69, 31);
             this.panel6.TabIndex = 0;
             // 
             // button7
@@ -239,9 +250,10 @@ namespace Text_Editor
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button7.Location = new System.Drawing.Point(-1, 0);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(35, 29);
+            this.button7.Size = new System.Drawing.Size(35, 31);
             this.button7.TabIndex = 2;
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button6
             // 
@@ -252,329 +264,520 @@ namespace Text_Editor
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button6.Location = new System.Drawing.Point(34, 0);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(35, 29);
+            this.button6.Size = new System.Drawing.Size(35, 31);
             this.button6.TabIndex = 0;
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
-            // menuStrip1
+            // panel7
             // 
-            this.menuStrip1.BackColor = System.Drawing.Color.White;
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.fileToolStripMenuItem,
-            this.editToolStripMenuItem,
-            this.toolsToolStripMenuItem,
-            this.helpToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 24);
-            this.menuStrip1.TabIndex = 3;
-            this.menuStrip1.Text = "menuStrip1";
+            this.panel7.BackColor = System.Drawing.Color.Black;
+            this.panel7.Controls.Add(this.btn_help);
+            this.panel7.Controls.Add(this.btn_tools);
+            this.panel7.Controls.Add(this.btn_edit);
+            this.panel7.Controls.Add(this.btn_file);
+            this.panel7.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel7.Location = new System.Drawing.Point(0, 0);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(800, 32);
+            this.panel7.TabIndex = 5;
             // 
-            // fileToolStripMenuItem
+            // btn_help
             // 
-            this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.newToolStripMenuItem,
-            this.openToolStripMenuItem,
-            this.toolStripSeparator,
-            this.saveToolStripMenuItem,
-            this.saveAsToolStripMenuItem,
-            this.toolStripSeparator1,
-            this.printToolStripMenuItem,
-            this.printPreviewToolStripMenuItem,
-            this.toolStripSeparator2,
-            this.exitToolStripMenuItem});
-            this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
-            this.fileToolStripMenuItem.Text = "&File";
+            this.btn_help.Dock = System.Windows.Forms.DockStyle.Left;
+            this.btn_help.FlatAppearance.BorderSize = 0;
+            this.btn_help.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_help.ForeColor = System.Drawing.Color.White;
+            this.btn_help.Location = new System.Drawing.Point(156, 0);
+            this.btn_help.Name = "btn_help";
+            this.btn_help.Size = new System.Drawing.Size(52, 32);
+            this.btn_help.TabIndex = 3;
+            this.btn_help.Text = "Help";
+            this.btn_help.UseVisualStyleBackColor = true;
+            this.btn_help.Click += new System.EventHandler(this.btn_help_Click);
             // 
-            // newToolStripMenuItem
+            // btn_tools
             // 
-            this.newToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("newToolStripMenuItem.Image")));
-            this.newToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.newToolStripMenuItem.Name = "newToolStripMenuItem";
-            this.newToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.N)));
-            this.newToolStripMenuItem.Size = new System.Drawing.Size(146, 22);
-            this.newToolStripMenuItem.Text = "&New";
+            this.btn_tools.Dock = System.Windows.Forms.DockStyle.Left;
+            this.btn_tools.FlatAppearance.BorderSize = 0;
+            this.btn_tools.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_tools.ForeColor = System.Drawing.Color.White;
+            this.btn_tools.Location = new System.Drawing.Point(104, 0);
+            this.btn_tools.Name = "btn_tools";
+            this.btn_tools.Size = new System.Drawing.Size(52, 32);
+            this.btn_tools.TabIndex = 2;
+            this.btn_tools.Text = "Tools";
+            this.btn_tools.UseVisualStyleBackColor = true;
+            this.btn_tools.Click += new System.EventHandler(this.btn_tools_Click);
             // 
-            // openToolStripMenuItem
+            // btn_edit
             // 
-            this.openToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("openToolStripMenuItem.Image")));
-            this.openToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.openToolStripMenuItem.Name = "openToolStripMenuItem";
-            this.openToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
-            this.openToolStripMenuItem.Size = new System.Drawing.Size(146, 22);
-            this.openToolStripMenuItem.Text = "&Open";
+            this.btn_edit.Dock = System.Windows.Forms.DockStyle.Left;
+            this.btn_edit.FlatAppearance.BorderSize = 0;
+            this.btn_edit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_edit.ForeColor = System.Drawing.Color.White;
+            this.btn_edit.Location = new System.Drawing.Point(52, 0);
+            this.btn_edit.Name = "btn_edit";
+            this.btn_edit.Size = new System.Drawing.Size(52, 32);
+            this.btn_edit.TabIndex = 1;
+            this.btn_edit.Text = "Edit";
+            this.btn_edit.UseVisualStyleBackColor = true;
+            this.btn_edit.Click += new System.EventHandler(this.btn_edit_Click);
             // 
-            // toolStripSeparator
+            // btn_file
             // 
-            this.toolStripSeparator.Name = "toolStripSeparator";
-            this.toolStripSeparator.Size = new System.Drawing.Size(143, 6);
+            this.btn_file.Dock = System.Windows.Forms.DockStyle.Left;
+            this.btn_file.FlatAppearance.BorderSize = 0;
+            this.btn_file.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_file.ForeColor = System.Drawing.Color.White;
+            this.btn_file.Location = new System.Drawing.Point(0, 0);
+            this.btn_file.Name = "btn_file";
+            this.btn_file.Size = new System.Drawing.Size(52, 32);
+            this.btn_file.TabIndex = 0;
+            this.btn_file.Text = "&File";
+            this.btn_file.UseVisualStyleBackColor = true;
+            this.btn_file.Click += new System.EventHandler(this.button8_Click);
             // 
-            // saveToolStripMenuItem
+            // Panel_File
             // 
-            this.saveToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("saveToolStripMenuItem.Image")));
-            this.saveToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
-            this.saveToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
-            this.saveToolStripMenuItem.Size = new System.Drawing.Size(146, 22);
-            this.saveToolStripMenuItem.Text = "&Save";
+            this.Panel_File.BackColor = System.Drawing.Color.White;
+            this.Panel_File.Controls.Add(this.button14);
+            this.Panel_File.Controls.Add(this.button12);
+            this.Panel_File.Controls.Add(this.button11);
+            this.Panel_File.Controls.Add(this.button10);
+            this.Panel_File.Controls.Add(this.btn_open);
+            this.Panel_File.Controls.Add(this.btn_new);
+            this.Panel_File.Dock = System.Windows.Forms.DockStyle.Top;
+            this.Panel_File.Location = new System.Drawing.Point(0, 32);
+            this.Panel_File.Name = "Panel_File";
+            this.Panel_File.Size = new System.Drawing.Size(800, 25);
+            this.Panel_File.TabIndex = 6;
             // 
-            // saveAsToolStripMenuItem
+            // button14
             // 
-            this.saveAsToolStripMenuItem.Name = "saveAsToolStripMenuItem";
-            this.saveAsToolStripMenuItem.Size = new System.Drawing.Size(146, 22);
-            this.saveAsToolStripMenuItem.Text = "Save &As";
+            this.button14.Dock = System.Windows.Forms.DockStyle.Left;
+            this.button14.FlatAppearance.BorderSize = 0;
+            this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button14.Image = ((System.Drawing.Image)(resources.GetObject("button14.Image")));
+            this.button14.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button14.Location = new System.Drawing.Point(366, 0);
+            this.button14.Name = "button14";
+            this.button14.Size = new System.Drawing.Size(72, 25);
+            this.button14.TabIndex = 7;
+            this.button14.Text = "Exit";
+            this.button14.UseVisualStyleBackColor = true;
+            this.button14.Click += new System.EventHandler(this.button14_Click);
             // 
-            // toolStripSeparator1
+            // button12
             // 
-            this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(143, 6);
+            this.button12.Dock = System.Windows.Forms.DockStyle.Left;
+            this.button12.FlatAppearance.BorderSize = 0;
+            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button12.Image = ((System.Drawing.Image)(resources.GetObject("button12.Image")));
+            this.button12.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button12.Location = new System.Drawing.Point(292, 0);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(74, 25);
+            this.button12.TabIndex = 5;
+            this.button12.Text = "Print";
+            this.button12.UseVisualStyleBackColor = true;
+            this.button12.Click += new System.EventHandler(this.button12_Click);
             // 
-            // printToolStripMenuItem
+            // button11
             // 
-            this.printToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("printToolStripMenuItem.Image")));
-            this.printToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.printToolStripMenuItem.Name = "printToolStripMenuItem";
-            this.printToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.P)));
-            this.printToolStripMenuItem.Size = new System.Drawing.Size(146, 22);
-            this.printToolStripMenuItem.Text = "&Print";
+            this.button11.Dock = System.Windows.Forms.DockStyle.Left;
+            this.button11.FlatAppearance.BorderSize = 0;
+            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button11.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button11.Location = new System.Drawing.Point(220, 0);
+            this.button11.Margin = new System.Windows.Forms.Padding(4, 3, 3, 3);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(72, 25);
+            this.button11.TabIndex = 4;
+            this.button11.Text = "Save As";
+            this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
-            // printPreviewToolStripMenuItem
+            // button10
             // 
-            this.printPreviewToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("printPreviewToolStripMenuItem.Image")));
-            this.printPreviewToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.printPreviewToolStripMenuItem.Name = "printPreviewToolStripMenuItem";
-            this.printPreviewToolStripMenuItem.Size = new System.Drawing.Size(146, 22);
-            this.printPreviewToolStripMenuItem.Text = "Print Pre&view";
+            this.button10.Dock = System.Windows.Forms.DockStyle.Left;
+            this.button10.FlatAppearance.BorderSize = 0;
+            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button10.Image = ((System.Drawing.Image)(resources.GetObject("button10.Image")));
+            this.button10.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button10.Location = new System.Drawing.Point(146, 0);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(74, 25);
+            this.button10.TabIndex = 3;
+            this.button10.Text = "Save";
+            this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
-            // toolStripSeparator2
+            // btn_open
             // 
-            this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(143, 6);
+            this.btn_open.Dock = System.Windows.Forms.DockStyle.Left;
+            this.btn_open.FlatAppearance.BorderSize = 0;
+            this.btn_open.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_open.Image = ((System.Drawing.Image)(resources.GetObject("btn_open.Image")));
+            this.btn_open.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_open.Location = new System.Drawing.Point(72, 0);
+            this.btn_open.Name = "btn_open";
+            this.btn_open.Size = new System.Drawing.Size(74, 25);
+            this.btn_open.TabIndex = 2;
+            this.btn_open.Text = "Open";
+            this.btn_open.UseVisualStyleBackColor = true;
+            this.btn_open.Click += new System.EventHandler(this.btn_open_Click);
             // 
-            // exitToolStripMenuItem
+            // btn_new
             // 
-            this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(146, 22);
-            this.exitToolStripMenuItem.Text = "E&xit";
+            this.btn_new.Dock = System.Windows.Forms.DockStyle.Left;
+            this.btn_new.FlatAppearance.BorderSize = 0;
+            this.btn_new.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_new.Image = ((System.Drawing.Image)(resources.GetObject("btn_new.Image")));
+            this.btn_new.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_new.Location = new System.Drawing.Point(0, 0);
+            this.btn_new.Name = "btn_new";
+            this.btn_new.Size = new System.Drawing.Size(72, 25);
+            this.btn_new.TabIndex = 1;
+            this.btn_new.Text = "New";
+            this.btn_new.UseVisualStyleBackColor = true;
+            this.btn_new.Click += new System.EventHandler(this.btn_new_Click);
             // 
-            // editToolStripMenuItem
+            // Panel_Edit
             // 
-            this.editToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.undoToolStripMenuItem,
-            this.redoToolStripMenuItem,
-            this.toolStripSeparator3,
-            this.cutToolStripMenuItem,
-            this.copyToolStripMenuItem,
-            this.pasteToolStripMenuItem,
-            this.toolStripSeparator4,
-            this.selectAllToolStripMenuItem});
-            this.editToolStripMenuItem.Name = "editToolStripMenuItem";
-            this.editToolStripMenuItem.Size = new System.Drawing.Size(39, 20);
-            this.editToolStripMenuItem.Text = "&Edit";
+            this.Panel_Edit.BackColor = System.Drawing.Color.White;
+            this.Panel_Edit.Controls.Add(this.button19);
+            this.Panel_Edit.Controls.Add(this.button18);
+            this.Panel_Edit.Controls.Add(this.button17);
+            this.Panel_Edit.Controls.Add(this.button16);
+            this.Panel_Edit.Controls.Add(this.button15);
+            this.Panel_Edit.Controls.Add(this.button13);
+            this.Panel_Edit.Controls.Add(this.panel10);
+            this.Panel_Edit.Dock = System.Windows.Forms.DockStyle.Top;
+            this.Panel_Edit.Location = new System.Drawing.Point(0, 57);
+            this.Panel_Edit.Name = "Panel_Edit";
+            this.Panel_Edit.Size = new System.Drawing.Size(800, 25);
+            this.Panel_Edit.TabIndex = 7;
             // 
-            // undoToolStripMenuItem
+            // button19
             // 
-            this.undoToolStripMenuItem.Name = "undoToolStripMenuItem";
-            this.undoToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Z)));
-            this.undoToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
-            this.undoToolStripMenuItem.Text = "&Undo";
+            this.button19.Dock = System.Windows.Forms.DockStyle.Left;
+            this.button19.FlatAppearance.BorderSize = 0;
+            this.button19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button19.Location = new System.Drawing.Point(322, 0);
+            this.button19.Name = "button19";
+            this.button19.Size = new System.Drawing.Size(72, 25);
+            this.button19.TabIndex = 7;
+            this.button19.Text = "Select All";
+            this.button19.UseVisualStyleBackColor = true;
+            this.button19.Click += new System.EventHandler(this.button19_Click);
             // 
-            // redoToolStripMenuItem
+            // button18
             // 
-            this.redoToolStripMenuItem.Name = "redoToolStripMenuItem";
-            this.redoToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Y)));
-            this.redoToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
-            this.redoToolStripMenuItem.Text = "&Redo";
+            this.button18.Dock = System.Windows.Forms.DockStyle.Left;
+            this.button18.FlatAppearance.BorderSize = 0;
+            this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button18.Image = ((System.Drawing.Image)(resources.GetObject("button18.Image")));
+            this.button18.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button18.Location = new System.Drawing.Point(250, 0);
+            this.button18.Name = "button18";
+            this.button18.Size = new System.Drawing.Size(72, 25);
+            this.button18.TabIndex = 6;
+            this.button18.Text = "Paste";
+            this.button18.UseVisualStyleBackColor = true;
+            this.button18.Click += new System.EventHandler(this.button18_Click);
             // 
-            // toolStripSeparator3
+            // button17
             // 
-            this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(141, 6);
+            this.button17.Dock = System.Windows.Forms.DockStyle.Left;
+            this.button17.FlatAppearance.BorderSize = 0;
+            this.button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button17.Image = ((System.Drawing.Image)(resources.GetObject("button17.Image")));
+            this.button17.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button17.Location = new System.Drawing.Point(178, 0);
+            this.button17.Name = "button17";
+            this.button17.Size = new System.Drawing.Size(72, 25);
+            this.button17.TabIndex = 5;
+            this.button17.Text = "Copy";
+            this.button17.UseVisualStyleBackColor = true;
+            this.button17.Click += new System.EventHandler(this.button17_Click);
             // 
-            // cutToolStripMenuItem
+            // button16
             // 
-            this.cutToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("cutToolStripMenuItem.Image")));
-            this.cutToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.cutToolStripMenuItem.Name = "cutToolStripMenuItem";
-            this.cutToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.X)));
-            this.cutToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
-            this.cutToolStripMenuItem.Text = "Cu&t";
+            this.button16.Dock = System.Windows.Forms.DockStyle.Left;
+            this.button16.FlatAppearance.BorderSize = 0;
+            this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button16.Image = ((System.Drawing.Image)(resources.GetObject("button16.Image")));
+            this.button16.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button16.Location = new System.Drawing.Point(106, 0);
+            this.button16.Name = "button16";
+            this.button16.Size = new System.Drawing.Size(72, 25);
+            this.button16.TabIndex = 4;
+            this.button16.Text = "Cut";
+            this.button16.UseVisualStyleBackColor = true;
+            this.button16.Click += new System.EventHandler(this.button16_Click);
             // 
-            // copyToolStripMenuItem
+            // button15
             // 
-            this.copyToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("copyToolStripMenuItem.Image")));
-            this.copyToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.copyToolStripMenuItem.Name = "copyToolStripMenuItem";
-            this.copyToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.C)));
-            this.copyToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
-            this.copyToolStripMenuItem.Text = "&Copy";
+            this.button15.Dock = System.Windows.Forms.DockStyle.Left;
+            this.button15.FlatAppearance.BorderSize = 0;
+            this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button15.Image = ((System.Drawing.Image)(resources.GetObject("button15.Image")));
+            this.button15.Location = new System.Drawing.Point(79, 0);
+            this.button15.Name = "button15";
+            this.button15.Size = new System.Drawing.Size(27, 25);
+            this.button15.TabIndex = 3;
+            this.button15.UseVisualStyleBackColor = true;
+            this.button15.Click += new System.EventHandler(this.button15_Click);
             // 
-            // pasteToolStripMenuItem
+            // button13
             // 
-            this.pasteToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("pasteToolStripMenuItem.Image")));
-            this.pasteToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.pasteToolStripMenuItem.Name = "pasteToolStripMenuItem";
-            this.pasteToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.V)));
-            this.pasteToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
-            this.pasteToolStripMenuItem.Text = "&Paste";
+            this.button13.Dock = System.Windows.Forms.DockStyle.Left;
+            this.button13.FlatAppearance.BorderSize = 0;
+            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button13.Image = ((System.Drawing.Image)(resources.GetObject("button13.Image")));
+            this.button13.Location = new System.Drawing.Point(52, 0);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(27, 25);
+            this.button13.TabIndex = 2;
+            this.button13.UseVisualStyleBackColor = true;
+            this.button13.Click += new System.EventHandler(this.button13_Click);
             // 
-            // toolStripSeparator4
+            // panel10
             // 
-            this.toolStripSeparator4.Name = "toolStripSeparator4";
-            this.toolStripSeparator4.Size = new System.Drawing.Size(141, 6);
+            this.panel10.BackColor = System.Drawing.SystemColors.Control;
+            this.panel10.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel10.Location = new System.Drawing.Point(0, 0);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(52, 25);
+            this.panel10.TabIndex = 0;
             // 
-            // selectAllToolStripMenuItem
+            // Panel_Tools
             // 
-            this.selectAllToolStripMenuItem.Name = "selectAllToolStripMenuItem";
-            this.selectAllToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
-            this.selectAllToolStripMenuItem.Text = "Select &All";
+            this.Panel_Tools.BackColor = System.Drawing.Color.White;
+            this.Panel_Tools.Controls.Add(this.button21);
+            this.Panel_Tools.Controls.Add(this.button20);
+            this.Panel_Tools.Controls.Add(this.panel12);
+            this.Panel_Tools.Dock = System.Windows.Forms.DockStyle.Top;
+            this.Panel_Tools.Location = new System.Drawing.Point(0, 82);
+            this.Panel_Tools.Name = "Panel_Tools";
+            this.Panel_Tools.Size = new System.Drawing.Size(800, 25);
+            this.Panel_Tools.TabIndex = 8;
             // 
-            // toolsToolStripMenuItem
+            // button21
             // 
-            this.toolsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.customizeToolStripMenuItem,
-            this.optionsToolStripMenuItem});
-            this.toolsToolStripMenuItem.Name = "toolsToolStripMenuItem";
-            this.toolsToolStripMenuItem.Size = new System.Drawing.Size(46, 20);
-            this.toolsToolStripMenuItem.Text = "&Tools";
+            this.button21.Dock = System.Windows.Forms.DockStyle.Left;
+            this.button21.FlatAppearance.BorderSize = 0;
+            this.button21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button21.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button21.Location = new System.Drawing.Point(176, 0);
+            this.button21.Name = "button21";
+            this.button21.Size = new System.Drawing.Size(72, 25);
+            this.button21.TabIndex = 7;
+            this.button21.Text = "Options";
+            this.button21.UseVisualStyleBackColor = true;
+            this.button21.Click += new System.EventHandler(this.button21_Click);
             // 
-            // customizeToolStripMenuItem
+            // button20
             // 
-            this.customizeToolStripMenuItem.Name = "customizeToolStripMenuItem";
-            this.customizeToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
-            this.customizeToolStripMenuItem.Text = "&Customize";
+            this.button20.Dock = System.Windows.Forms.DockStyle.Left;
+            this.button20.FlatAppearance.BorderSize = 0;
+            this.button20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button20.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button20.Location = new System.Drawing.Point(104, 0);
+            this.button20.Name = "button20";
+            this.button20.Size = new System.Drawing.Size(72, 25);
+            this.button20.TabIndex = 6;
+            this.button20.Text = "Customize";
+            this.button20.UseVisualStyleBackColor = true;
+            this.button20.Click += new System.EventHandler(this.button20_Click);
             // 
-            // optionsToolStripMenuItem
+            // panel12
             // 
-            this.optionsToolStripMenuItem.Name = "optionsToolStripMenuItem";
-            this.optionsToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
-            this.optionsToolStripMenuItem.Text = "&Options";
+            this.panel12.BackColor = System.Drawing.SystemColors.Control;
+            this.panel12.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel12.Location = new System.Drawing.Point(0, 0);
+            this.panel12.Name = "panel12";
+            this.panel12.Size = new System.Drawing.Size(104, 25);
+            this.panel12.TabIndex = 1;
             // 
-            // helpToolStripMenuItem
+            // Panel_Help
             // 
-            this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.contentsToolStripMenuItem,
-            this.indexToolStripMenuItem,
-            this.searchToolStripMenuItem,
-            this.toolStripSeparator5,
-            this.aboutToolStripMenuItem});
-            this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
-            this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
-            this.helpToolStripMenuItem.Text = "&Help";
+            this.Panel_Help.BackColor = System.Drawing.Color.White;
+            this.Panel_Help.Controls.Add(this.button23);
+            this.Panel_Help.Controls.Add(this.panel14);
+            this.Panel_Help.Dock = System.Windows.Forms.DockStyle.Top;
+            this.Panel_Help.Location = new System.Drawing.Point(0, 107);
+            this.Panel_Help.Name = "Panel_Help";
+            this.Panel_Help.Size = new System.Drawing.Size(800, 25);
+            this.Panel_Help.TabIndex = 9;
             // 
-            // contentsToolStripMenuItem
+            // button23
             // 
-            this.contentsToolStripMenuItem.Name = "contentsToolStripMenuItem";
-            this.contentsToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
-            this.contentsToolStripMenuItem.Text = "&Contents";
+            this.button23.Dock = System.Windows.Forms.DockStyle.Left;
+            this.button23.FlatAppearance.BorderSize = 0;
+            this.button23.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button23.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button23.Location = new System.Drawing.Point(156, 0);
+            this.button23.Name = "button23";
+            this.button23.Size = new System.Drawing.Size(72, 25);
+            this.button23.TabIndex = 6;
+            this.button23.Text = "About...";
+            this.button23.UseVisualStyleBackColor = true;
+            this.button23.Click += new System.EventHandler(this.button23_Click);
             // 
-            // indexToolStripMenuItem
+            // panel14
             // 
-            this.indexToolStripMenuItem.Name = "indexToolStripMenuItem";
-            this.indexToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
-            this.indexToolStripMenuItem.Text = "&Index";
+            this.panel14.BackColor = System.Drawing.SystemColors.Control;
+            this.panel14.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel14.Location = new System.Drawing.Point(0, 0);
+            this.panel14.Name = "panel14";
+            this.panel14.Size = new System.Drawing.Size(156, 25);
+            this.panel14.TabIndex = 1;
             // 
-            // searchToolStripMenuItem
+            // panel15
             // 
-            this.searchToolStripMenuItem.Name = "searchToolStripMenuItem";
-            this.searchToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
-            this.searchToolStripMenuItem.Text = "&Search";
+            this.panel15.BackColor = System.Drawing.Color.White;
+            this.panel15.Controls.Add(this.panel5);
+            this.panel15.Controls.Add(this.panel4);
+            this.panel15.Controls.Add(this.button3);
+            this.panel15.Controls.Add(this.button2);
+            this.panel15.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel15.Location = new System.Drawing.Point(0, 132);
+            this.panel15.Name = "panel15";
+            this.panel15.Size = new System.Drawing.Size(800, 45);
+            this.panel15.TabIndex = 10;
             // 
-            // toolStripSeparator5
+            // panel1
             // 
-            this.toolStripSeparator5.Name = "toolStripSeparator5";
-            this.toolStripSeparator5.Size = new System.Drawing.Size(119, 6);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel1.Location = new System.Drawing.Point(0, 177);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(100, 242);
+            this.panel1.TabIndex = 11;
             // 
-            // aboutToolStripMenuItem
+            // panel3
             // 
-            this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
-            this.aboutToolStripMenuItem.Text = "&About...";
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel3.Location = new System.Drawing.Point(700, 177);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(100, 242);
+            this.panel3.TabIndex = 12;
             // 
-            // richTextBox1
+            // panel8
             // 
-            this.richTextBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.richTextBox1.Location = new System.Drawing.Point(0, 59);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(800, 360);
-            this.richTextBox1.TabIndex = 4;
-            this.richTextBox1.Text = "";
+            this.panel8.Controls.Add(this.txt_box);
+            this.panel8.Controls.Add(this.panel9);
+            this.panel8.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel8.Location = new System.Drawing.Point(100, 177);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(600, 242);
+            this.panel8.TabIndex = 14;
             // 
-            // Form1
+            // txt_box
+            // 
+            this.txt_box.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txt_box.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.txt_box.Location = new System.Drawing.Point(0, 24);
+            this.txt_box.Margin = new System.Windows.Forms.Padding(10);
+            this.txt_box.Name = "txt_box";
+            this.txt_box.Size = new System.Drawing.Size(600, 218);
+            this.txt_box.TabIndex = 14;
+            this.txt_box.Text = "";
+            this.txt_box.TextChanged += new System.EventHandler(this.txt_box_TextChanged);
+            // 
+            // panel9
+            // 
+            this.panel9.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel9.Location = new System.Drawing.Point(0, 0);
+            this.panel9.Name = "panel9";
+            this.panel9.Size = new System.Drawing.Size(600, 24);
+            this.panel9.TabIndex = 0;
+            // 
+            // Form_txt
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.richTextBox1);
-            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panel8);
+            this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.menuStrip1);
+            this.Controls.Add(this.panel15);
+            this.Controls.Add(this.Panel_Help);
+            this.Controls.Add(this.Panel_Tools);
+            this.Controls.Add(this.Panel_Edit);
+            this.Controls.Add(this.Panel_File);
+            this.Controls.Add(this.panel7);
+            this.Controls.Add(this.panel2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Name = "Form1";
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "Form_txt";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Text Editor";
-            this.panel1.ResumeLayout(false);
+            this.Load += new System.EventHandler(this.Form_txt_Load);
             this.panel5.ResumeLayout(false);
-            this.panel3.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel6.ResumeLayout(false);
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
+            this.panel7.ResumeLayout(false);
+            this.Panel_File.ResumeLayout(false);
+            this.Panel_Edit.ResumeLayout(false);
+            this.Panel_Tools.ResumeLayout(false);
+            this.Panel_Help.ResumeLayout(false);
+            this.panel15.ResumeLayout(false);
+            this.panel8.ResumeLayout(false);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cb_numero;
+        private System.Windows.Forms.ComboBox cb_font;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.RichTextBox richTextBox1;
-        private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem newToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem openToolStripMenuItem;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator;
-        private System.Windows.Forms.ToolStripMenuItem saveToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem saveAsToolStripMenuItem;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
-        private System.Windows.Forms.ToolStripMenuItem printToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem printPreviewToolStripMenuItem;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
-        private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem editToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem undoToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem redoToolStripMenuItem;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
-        private System.Windows.Forms.ToolStripMenuItem cutToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem copyToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem pasteToolStripMenuItem;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator4;
-        private System.Windows.Forms.ToolStripMenuItem selectAllToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem toolsToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem customizeToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem optionsToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem contentsToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem indexToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem searchToolStripMenuItem;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator5;
-        private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Panel panel7;
+        private System.Windows.Forms.Button btn_help;
+        private System.Windows.Forms.Button btn_tools;
+        private System.Windows.Forms.Button btn_edit;
+        private System.Windows.Forms.Button btn_file;
+        private System.Windows.Forms.Panel Panel_File;
+        private System.Windows.Forms.Button button14;
+        private System.Windows.Forms.Button button12;
+        private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.Button btn_open;
+        private System.Windows.Forms.Button btn_new;
+        private System.Windows.Forms.Panel Panel_Edit;
+        private System.Windows.Forms.Button button19;
+        private System.Windows.Forms.Button button18;
+        private System.Windows.Forms.Button button17;
+        private System.Windows.Forms.Button button16;
+        private System.Windows.Forms.Button button15;
+        private System.Windows.Forms.Button button13;
+        private System.Windows.Forms.Panel panel10;
+        private System.Windows.Forms.Panel Panel_Tools;
+        private System.Windows.Forms.Button button21;
+        private System.Windows.Forms.Button button20;
+        private System.Windows.Forms.Panel panel12;
+        private System.Windows.Forms.Panel Panel_Help;
+        private System.Windows.Forms.Button button23;
+        private System.Windows.Forms.Panel panel14;
+        private System.Windows.Forms.Panel panel15;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Panel panel8;
+        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.RichTextBox txt_box;
+        private System.Windows.Forms.Panel panel9;
     }
 }
 
